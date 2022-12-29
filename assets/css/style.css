@@ -1,0 +1,186 @@
+@font-face {
+  font-family: "Lora";
+  src: url("../fonts/Lora/Lora-Italic-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "Work Sans";
+  src: url("../fonts/Work_Sans/WorkSans-VariableFont_wght.ttf");
+}
+body {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.flexHeader {
+  display: flex;
+}
+.titleHeader {
+  margin: 0 auto;
+  height: auto 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+.titleHeader h1 {
+  font-family: "Work Sans";
+  font-size: 4rem;
+  letter-spacing: 5px;
+}
+.titleHeader p {
+  font-family: "Work Sans";
+  font-size: 0.8rem;
+  word-spacing: 3px;
+}
+.bildHeader img {
+  width: 100%;
+  height: 100%;
+}
+.bgdColor {
+  background-color: #2e2e2e;
+  display: flex;
+  justify-content: flex-end;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.bgdColor nav {
+  margin-right: 35px;
+}
+.bgdColor nav a {
+  color: white;
+  padding: 0 30px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-family: "Lora";
+}
+.bgdColor nav a:hover {
+  text-decoration: underline;
+}
+.flexStory {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #2e2e2e;
+  padding: 10vh 0;
+  color: white;
+}
+.bildBeschreibung img {
+  max-width: 100%;
+}
+.story {
+  width: 100%;
+  max-width: 650px;
+  margin: 0 auto;
+}
+.story h2 {
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Work Sans";
+}
+.story p {
+  font-size: 1.5rem;
+  padding: 20px;
+  font-family: "Lora";
+}
+.flexMainTitle {
+  text-align: center;
+  padding: 10vh 0 5vh 0;
+}
+.flexMainTitle h2 {
+  font-family: "Work Sans";
+  margin-bottom: 15px;
+}
+.flexMainTitle p {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+.imgMain {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 5vh;
+}
+.imgMain img {
+  width: 100%;
+  max-width: 450px;
+  height: 100%;
+  max-height: 310px;
+}
+.video {
+  text-align: center;
+  margin-bottom: 10vh;
+}
+footer {
+  background-color: #2e2e2e;
+  color: white;
+  padding: 0 10px 15px 10px;
+}
+.flexMieteFooter {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.imput {
+  font-size: 1.8rem;
+  padding: 0 200px 0 0;
+}
+.imput p {
+  padding: 10px 0;
+}
+.imput input {
+  font-size: 20px;
+  width: 100%;
+  max-width: 400px;
+}
+.imput input:last-of-type {
+  font-size: 30px;
+  width: 100%;
+  max-width: 400px;
+}
+.flexFooter {
+  margin: 20vh 5vw;
+}
+.flexFooter h2 {
+  font-size: 2.5rem;
+  font-family: "Work Sans";
+}
+.flexFooter p {
+  width: 100%;
+  max-width: 520px;
+  padding: 15px;
+  text-align: left;
+  font-family: "Lora";
+  font-size: 1.2rem;
+}
+.flexFooter p:last-of-type {
+  letter-spacing: 3px;
+}
+.buttomImput button {
+  margin-top: 50px;
+  font-size: 18px;
+  padding: 5px 10px;
+}
+.flexNavFooter {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2rem;
+
+  font-family: "Work Sans";
+}
+.flexNavFooter nav a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+.flexNavFooter nav a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
